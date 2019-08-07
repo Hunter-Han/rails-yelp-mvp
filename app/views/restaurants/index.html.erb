@@ -1,0 +1,6 @@
+<%@restaurants.each do |restaurant|%>
+  <%id = restaurant.id%>
+  <a href="http://localhost:3000/restaurants/<%=id%>">  <h2><%=restaurant.name%></h2></a>
+<%end%>
+
+  <a href="http://localhost:3000/restaurants/new">Add a new restaurant</a>
